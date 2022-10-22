@@ -23,7 +23,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 10px 0 10px 13%;
+    padding: 10px 0 10px 10%;
     width: 29%;
     height: 100%;
     position: fixed;
