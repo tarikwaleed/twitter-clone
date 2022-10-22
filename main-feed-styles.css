@@ -1,3 +1,4 @@
+/* @import url(header-styles.css); */
 main {
     margin-left: 29%;
     width: 71%;
@@ -29,4 +30,55 @@ main {
     padding: 0 15px;
     position: sticky;
     top: 0;
+}
+
+.new-tweet {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    padding: 4px 10px;
+}
+
+.new-tweet .account-image {
+    width: 50px;
+    height: 50px;
+}
+.new-tweet-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 4px;
+    width: 100%;
+    margin-left: 12px;
+}
+.new-tweet-actions{
+    display: flex;
+    justify-content: between;
+    align-items: center;
+    height: 60px;
+}
+.new-tweet-actions ul{
+    display: flex;
+    list-style: none;
+}
+.new-tweet-details input{
+    width: 100%;
+    height: 24px;
+    border: none;
+    font-size: 2rem;
+    outline: none;
+    background-color: transparent;
+}
+.new-tweet-actions ul li{
+    margin-right: 12px;
+    color:#1c88d2 ;
+    cursor: pointer;
+}
+.new-tweet-actions .tweet-button{
+    width:75px;
+    height: 35px;
+    margin:0;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-left: 60px;
 }
