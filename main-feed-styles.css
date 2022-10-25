@@ -154,6 +154,7 @@ main {
     height: 55px;
     max-width: 355px;
     position: sticky;
+    background-color: #181A1B;
     top: 0;
     padding-top: 5px;
 }
@@ -212,7 +213,8 @@ main {
 }
 
 .trending-item:hover,
-.show-more:hover,.follow-profile:hover{
+.show-more:hover,
+.follow-profile:hover {
     background-color: #1c1e22;
     cursor: pointer;
 }
@@ -269,10 +271,8 @@ main {
 .follow-details:hover {
     text-decoration: underline;
 }
-.follow-details span{
-    
 
-}
+.follow-details span {}
 
 .follow-button {
     width: 75px;
