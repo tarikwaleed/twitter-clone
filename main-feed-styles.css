@@ -5,6 +5,9 @@ main {
     height: 100%;
 }
 
+body{
+    background-color: rgb(30, 30, 30);
+}
 .main-flex {
     display: flex;
     width: 100%;
@@ -67,6 +70,7 @@ main {
 }
 
 .new-tweet-details input {
+    color:white;
     width: 100%;
     height: 24px;
     border: none;
@@ -91,6 +95,7 @@ main {
 }
 
 .feed-tweet {
+    color: white;
     display: flex;
     width: 100%;
     /* this makes the height stretches as the content grows */
@@ -160,6 +165,7 @@ main {
 }
 
 .search input {
+    color:white;
     background-color: #212327;
     border-radius: 9999px;
     height: 45px;
@@ -171,6 +177,7 @@ main {
 }
 
 .trending {
+    color: white;
     background-color: #212327;
     display: flex;
     flex-direction: column;
@@ -181,6 +188,7 @@ main {
 }
 
 .trending-title {
+    color:white;
     font-size: 2rem;
     font-weight: 700;
     padding: 15px 15px;
